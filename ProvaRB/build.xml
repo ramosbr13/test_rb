@@ -10,7 +10,7 @@
     <property name="debuglevel" value="source,lines,vars"/>
     <property name="target" value="1.8"/>
     <property name="source" value="1.8"/>
-    <path id="ProvaRB.classpath">
+    <path id="ProvaRB.classpath"> 
         <pathelement location="bin"/>
         <pathelement location="../../Jars/cobertura-2.1.1.jar"/>
         <pathelement location="../../Jars/cucumber-core-1.2.4.jar"/>
