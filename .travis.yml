@@ -1,12 +1,12 @@
 language: java
 
+sudo: required
+
 jdk:
   - oraclejdk8
-  - oraclejdk7
-  - openjdk7
-  - openjdk6
-  
-install: ant deps
+
+install: true
 
 script:
-    - ant test
+  - sudo apt-get update && sudo apt-get install oracle-java8-installer
+  - java -version
